@@ -1,0 +1,12 @@
+<div class="todos">
+    <ul data-for="todos">
+        <li 
+            data-bind="name" 
+            class="todo" 
+            data-class="done:isDone"
+            data-on:click="toggleState"
+        ></li>
+    </ul>
+    <input type="text" placeholder="Input todo" data-model="inputTodo">
+    <button data-on:click="addTodo">Add Todo</button>
+</div>

@@ -1,0 +1,17 @@
+#app {
+    margin-bottom: 85vh;
+}
+
+.red {
+    color: red;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.todo.done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #666;
+}
